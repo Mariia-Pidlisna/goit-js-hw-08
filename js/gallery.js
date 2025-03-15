@@ -93,7 +93,7 @@ const images = [
 
         const instans = basicLightbox.create(`
           <div class="modal">
-          <img src="${sourceSet}" width="1112" height="640"/>
+          <img src="${sourceSet}"/>
           </div>
           `)
       

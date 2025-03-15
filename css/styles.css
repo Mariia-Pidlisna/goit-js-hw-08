@@ -1,6 +1,13 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-  }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
 
   ul {
     margin: 0;
@@ -25,3 +32,12 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.modal {
+  width: 1440px;
+  background: rgba(46, 47, 66, 0.8);
+  padding: 28px 164px;
+}
+
+.modal img {
+  width: 1112px;
+}
